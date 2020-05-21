@@ -37,6 +37,9 @@ button {
   border-radius: 1rem;
   cursor: pointer;
 }
+.btn-search {
+  background-color: #f6f6f6;
+}
 .btn-random {
   text-decoration: none;
   font-family: Georgia, "Times New Roman", Times, serif;
