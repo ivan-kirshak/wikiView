@@ -54,11 +54,11 @@ button {
   margin: 0 auto;
   border: none;
   outline: none;
-  border: 1px solid rgb(145, 145, 145);
   border-radius: 1rem;
 }
 .wiki-container {
   height: 50vh;
+  border: 1px solid rgb(95, 95, 95);
 }
 .answer-link {
   text-decoration: none;
@@ -71,6 +71,7 @@ button {
 }
 .answer-heading {
   font-family: serif;
+  font-weight: normal;
 }
 .answer-text {
   padding-top: 0.5rem;
