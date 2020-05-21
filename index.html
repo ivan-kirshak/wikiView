@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header-heading">Wikipedia</h1>
+
+    <div class="container">
+        <a class="btn-random" id="randomBtn" href="https://en.wikipedia.org/wiki/Special:Random">Click for a random
+            Wikipedia page</a>
+
+
+        <div class="search-container">
+            <input type="text" name="input for wikipedia search" id="wikiSearchInput"
+                placeholder="What would you like to find?" class="text-input">
+
+            <button type="button" class="btn-search" id="searchBtn">Search in Wikipeida</button>
+        </div>
+
+        <iframe class="wiki-container" id="wikiContainer"></iframe>
+
+        <div class="search-results" id="searchResuts"></div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
